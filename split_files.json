@@ -1,0 +1,31 @@
+{
+ "note": "parts are consecutive byte ranges; run reassemble_split_files.py",
+ "files": [
+  {
+   "path": "colab_out/models.tar",
+   "size": 1785948160,
+   "sha256": "be5452df6a3c79a64c1a7a8af72f7d70b0510579814113f75a6d23c38bb0de5c",
+   "parts": [
+    "colab_out/models.tar.part000",
+    "colab_out/models.tar.part001",
+    "colab_out/models.tar.part002",
+    "colab_out/models.tar.part003",
+    "colab_out/models.tar.part004",
+    "colab_out/models.tar.part005",
+    "colab_out/models.tar.part006",
+    "colab_out/models.tar.part007",
+    "colab_out/models.tar.part008",
+    "colab_out/models.tar.part009",
+    "colab_out/models.tar.part010",
+    "colab_out/models.tar.part011",
+    "colab_out/models.tar.part012",
+    "colab_out/models.tar.part013",
+    "colab_out/models.tar.part014",
+    "colab_out/models.tar.part015",
+    "colab_out/models.tar.part016",
+    "colab_out/models.tar.part017",
+    "colab_out/models.tar.part018"
+   ]
+  }
+ ]
+}
