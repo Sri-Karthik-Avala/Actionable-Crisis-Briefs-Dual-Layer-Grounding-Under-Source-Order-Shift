@@ -1,0 +1,7 @@
+START s3_ibtw_bio 08:08:09
+END s3_ibtw_bio rc=0 08:15:32 ep 9 loss 0.0566 val 0.6627 arg 0.6391 ent 0.7332 t 415s
+START s3_ibtw_span 08:15:32
+END s3_ibtw_span rc=127 08:17:03 ep 0 loss 0.6314 val 0.4373 arg 0.3845 ent 0.5956 t 40s
+START s3_mdeb_span 08:17:03
+END s3_mdeb_span rc=127 08:29:37 
+START s3_ibtl_span 08:29:38

@@ -1,0 +1,10 @@
+pip_system_certs: ERROR: could not inject truststore: [ASN1: NOT_ENOUGH_DATA] not enough data (_ssl.c:4030)
+train 2656 val 662 dropped long spans 1
+ep 0 loss 0.7928 val 0.4556 arg 0.4291 ent 0.5351 t 204s
+ep 1 loss 0.0866 val 0.5329 arg 0.4953 ent 0.6459 t 403s
+ep 2 loss 0.0646 val 0.5856 arg 0.5527 ent 0.6842 t 612s
+ep 3 loss 0.0457 val 0.6239 arg 0.6113 ent 0.6618 t 866s
+ep 4 loss 0.0354 val 0.6288 arg 0.6021 ent 0.7087 t 1144s
+p 5 loss 0.0277 val 0.6167 arg 0.5827 ent 0.7190 t 1026s
+ep 6 loss 0.0228 val 0.6520 arg 0.6250 ent 0.7331 t 1148s
+ep 7 loss 0.0170 val 0.6431 arg 0.6166 ent 0.7226 t 1270s

@@ -1,0 +1,32 @@
+pip_system_certs: ERROR: could not inject truststore: [ASN1: NOT_ENOUGH_DATA] not enough data (_ssl.c:4030)
+train 2656 val 662 dropped long spans 1
+ep 0 loss 0.6313 val 0.4848 arg 0.4485 ent 0.5938 t 21s
+ep 1 loss 0.0802 val 0.5515 arg 0.5181 ent 0.6515 t 41s
+ep 2 loss 0.0569 val 0.5958 arg 0.5643 ent 0.6903 t 61s
+ep 3 loss 0.0406 val 0.6216 arg 0.5979 ent 0.6925 t 82s
+ep 4 loss 0.0307 val 0.6334 arg 0.6129 ent 0.6950 t 104s
+ep 5 loss 0.0236 val 0.6500 arg 0.6303 ent 0.7091 t 126s
+ep 6 loss 0.0187 val 0.6484 arg 0.6256 ent 0.7166 t 144s
+ep 7 loss 0.0147 val 0.6631 arg 0.6416 ent 0.7276 t 162s
+ep 8 loss 0.0118 val 0.6677 arg 0.6499 ent 0.7212 t 182s
+ep 9 loss 0.0099 val 0.6608 arg 0.6410 ent 0.7201 t 206s
+total 0.6608  arg 0.6410  ent 0.7201
+  PLACE-ARG              w=2.0 P=  932 R=  872 E=  739 S=   767.2 score=0.8287
+  STREET-ARG             w=2.0 P=   80 R=  150 E=   49 S=    62.8 score=0.4622
+  TIME-ARG               w=1.6 P=  207 R=  191 E=  143 S=   159.8 score=0.7440
+  AFFECTEDOBJECTS-ARG    w=1.6 P=  206 R=  229 E=  141 S=   157.0 score=0.6704
+  DEATHVICTIM-ARG        w=2.4 P=   35 R=   35 E=   22 S=    26.7 score=0.6686
+  WOUNDVICTIM-ARG        w=2.4 P=   22 R=   24 E=    7 S=     9.8 score=0.3405
+  OFFICER-ARG            w=1.0 P=  180 R=  221 E=  125 S=   134.9 score=0.6382
+  REASON-ARG             w=1.2 P=   26 R=   35 E=   20 S=    21.3 score=0.6689
+  INFORMATION-ARG        w=1.0 P=   61 R=   91 E=   32 S=    37.7 score=0.4434
+  FIRE-EVENT             w=1.2 P=  153 R=  129 E=  117 S=   119.0 score=0.8340
+  FLOOD-EVENT            w=1.2 P=   73 R=   48 E=   35 S=    36.8 score=0.5876
+  EARTHQUAKE-EVENT       w=1.2 P=   59 R=   51 E=   39 S=    40.5 score=0.7171
+  ACCIDENT-EVENT         w=1.2 P=  106 R=   99 E=   79 S=    87.2 score=0.7948
+  FALSE-EVENT            w=0.8 P=  386 R=  421 E=  333 S=   336.0 score=0.8275
+  ARG                    w=0.8 P=  715 R=  797 E=  494 S=   553.1 score=0.6769
+  EVE                    w=1.0 P=  781 R=  754 E=  715 S=   727.1 score=0.9363
+  LOC                    w=1.5 P=  700 R=  655 E=  482 S=   494.8 score=0.7171
+  PLOC                   w=1.5 P=  442 R=  424 E=  282 S=   285.3 score=0.6536
+  ORG                    w=1.0 P=  189 R=  232 E=  132 S=   143.2 score=0.6430

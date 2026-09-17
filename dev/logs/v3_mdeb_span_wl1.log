@@ -1,0 +1,34 @@
+pip_system_certs: ERROR: could not inject truststore: [ASN1: NOT_ENOUGH_DATA] not enough data (_ssl.c:4030)
+C:\Users\srika\anaconda3\envs\max\lib\site-packages\transformers\convert_slow_tokenizer.py:564: UserWarning: The sentencepiece tokenizer that you are converting to a fast tokenizer uses the byte fallback option which is not implemented in the fast tokenizers. In practice this means that the fast version of the tokenizer can produce unknown tokens whereas the sentencepiece version would have converted these unknown tokens into a sequence of byte tokens matching the original piece of text.
+  warnings.warn(
+train 2656 val 662 dropped long spans 1
+ep 0 loss 0.5800 val 0.4987 arg 0.4943 ent 0.5121 t 68s
+ep 1 loss 0.1087 val 0.5501 arg 0.5219 ent 0.6349 t 136s
+ep 2 loss 0.0808 val 0.5938 arg 0.5705 ent 0.6636 t 203s
+ep 3 loss 0.0637 val 0.5950 arg 0.5713 ent 0.6663 t 271s
+ep 4 loss 0.0522 val 0.6556 arg 0.6377 ent 0.7091 t 338s
+ep 5 loss 0.0415 val 0.6591 arg 0.6396 ent 0.7177 t 405s
+ep 6 loss 0.0342 val 0.6545 arg 0.6283 ent 0.7329 t 473s
+ep 7 loss 0.0281 val 0.6744 arg 0.6614 ent 0.7136 t 508s
+ep 8 loss 0.0232 val 0.6715 arg 0.6532 ent 0.7263 t 540s
+ep 9 loss 0.0199 val 0.6779 arg 0.6616 ent 0.7266 t 571s
+total 0.6779  arg 0.6616  ent 0.7266
+  PLACE-ARG              w=2.0 P=  974 R=  872 E=  774 S=   803.0 score=0.8480
+  STREET-ARG             w=2.0 P=  110 R=  150 E=   55 S=    80.8 score=0.4825
+  TIME-ARG               w=1.6 P=  215 R=  191 E=  158 S=   173.0 score=0.8004
+  AFFECTEDOBJECTS-ARG    w=1.6 P=  207 R=  229 E=  148 S=   166.6 score=0.7045
+  DEATHVICTIM-ARG        w=2.4 P=   45 R=   35 E=   27 S=    29.7 score=0.6954
+  WOUNDVICTIM-ARG        w=2.4 P=   34 R=   24 E=   11 S=    15.7 score=0.4278
+  OFFICER-ARG            w=1.0 P=  192 R=  221 E=  131 S=   141.2 score=0.6492
+  REASON-ARG             w=1.2 P=   32 R=   35 E=   18 S=    19.2 score=0.5484
+  INFORMATION-ARG        w=1.0 P=   66 R=   91 E=   32 S=    38.2 score=0.4312
+  FIRE-EVENT             w=1.2 P=  153 R=  129 E=  114 S=   116.0 score=0.8128
+  FLOOD-EVENT            w=1.2 P=   86 R=   48 E=   42 S=    42.7 score=0.6299
+  EARTHQUAKE-EVENT       w=1.2 P=   67 R=   51 E=   44 S=    45.5 score=0.7532
+  ACCIDENT-EVENT         w=1.2 P=  107 R=   99 E=   80 S=    89.3 score=0.8039
+  FALSE-EVENT            w=0.8 P=  367 R=  421 E=  324 S=   325.8 score=0.8237
+  ARG                    w=0.8 P=  711 R=  797 E=  474 S=   544.0 score=0.6565
+  EVE                    w=1.0 P=  792 R=  754 E=  720 S=   732.6 score=0.9363
+  LOC                    w=1.5 P=  670 R=  655 E=  477 S=   493.4 score=0.7274
+  PLOC                   w=1.5 P=  506 R=  424 E=  320 S=   324.5 score=0.6910
+  ORG                    w=1.0 P=  192 R=  232 E=  129 S=   140.9 score=0.6253

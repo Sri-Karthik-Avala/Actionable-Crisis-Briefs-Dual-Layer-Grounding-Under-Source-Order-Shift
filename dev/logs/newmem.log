@@ -1,0 +1,5 @@
+START m_mdeb_span 09:17:14
+END m_mdeb_span 09:42:30 last=0.6655
+VRAM FREE 10:10:34
+END m_ibtl_span 10:27:03 last=0.6650
+NEWMEMDONE

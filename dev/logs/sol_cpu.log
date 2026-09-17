@@ -1,0 +1,19 @@
+pip_system_certs: ERROR: could not inject truststore: [ASN1: NOT_ENOUGH_DATA] not enough data (_ssl.c:4030)
+train 3318 test 832
+calibration fit 2655 hold 663
+  indolem/indobertweet-base-uncased bio seed 21 epoch 0 loss 2.0464
+  indolem/indobertweet-base-uncased bio seed 21 epoch 1 loss 0.6671
+  indolem/indobertweet-base-uncased bio seed 21 epoch 2 loss 0.4456
+  indolem/indobertweet-base-uncased bio seed 21 epoch 3 loss 0.3096
+  indolem/indobertweet-base-uncased bio seed 21 epoch 4 loss 0.2133
+  indolem/indobertweet-base-uncased bio seed 21 epoch 5 loss 0.1516
+  indolem/indobertweet-base-uncased bio seed 21 epoch 6 loss 0.1108
+  indolem/indobertweet-base-uncased bio seed 21 epoch 7 loss 0.0807
+  indolem/indobertweet-base-uncased bio seed 21 epoch 8 loss 0.0632
+  indolem/indobertweet-base-uncased bio seed 21 epoch 9 loss 0.0480
+  indolem/indobertweet-base-uncased span seed 22 epoch 0 loss 0.6416
+  indolem/indobertweet-base-uncased span seed 22 epoch 1 loss 0.0785
+  indolem/indobertweet-base-uncased span seed 22 epoch 2 loss 0.0533
+  indolem/indobertweet-base-uncased span seed 22 epoch 3 loss 0.0408
+  indolem/indobertweet-base-uncased span seed 22 epoch 4 loss 0.0298
+RUN EXIT 127 13:46:33

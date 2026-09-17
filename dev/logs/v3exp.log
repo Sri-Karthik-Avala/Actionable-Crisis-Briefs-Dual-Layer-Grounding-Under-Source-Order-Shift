@@ -1,0 +1,9 @@
+START v3_span_e10 15:12:44
+END v3_span_e10 15:16:33 last=0.6608 best=0.6677
+START v3_span_e16 15:16:34
+END v3_span_e16 15:22:15 last=0.6607 best=0.6763
+START v3_span_wl1 15:22:15
+END v3_span_wl1 15:25:18 last=0.6666 best=0.6666
+START v3_bio_e16 15:25:18
+END v3_bio_e16 15:35:00 last=0.6650 best=0.6762
+V3EXPDONE

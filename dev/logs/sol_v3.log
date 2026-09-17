@@ -1,0 +1,122 @@
+pip_system_certs: ERROR: could not inject truststore: [ASN1: NOT_ENOUGH_DATA] not enough data (_ssl.c:4030)
+train 3318 test 832
+calibration fit 2655 hold 663
+  indolem/indobertweet-base-uncased bio seed 21 epoch 0 loss 2.0560
+  indolem/indobertweet-base-uncased bio seed 21 epoch 1 loss 0.6744
+  indolem/indobertweet-base-uncased bio seed 21 epoch 2 loss 0.4458
+  indolem/indobertweet-base-uncased bio seed 21 epoch 3 loss 0.3075
+  indolem/indobertweet-base-uncased bio seed 21 epoch 4 loss 0.2088
+  indolem/indobertweet-base-uncased bio seed 21 epoch 5 loss 0.1525
+  indolem/indobertweet-base-uncased bio seed 21 epoch 6 loss 0.1091
+  indolem/indobertweet-base-uncased bio seed 21 epoch 7 loss 0.0842
+  indolem/indobertweet-base-uncased bio seed 21 epoch 8 loss 0.0642
+  indolem/indobertweet-base-uncased bio seed 21 epoch 9 loss 0.0513
+  indolem/indobertweet-base-uncased span seed 22 epoch 0 loss 0.6533
+  indolem/indobertweet-base-uncased span seed 22 epoch 1 loss 0.0783
+  indolem/indobertweet-base-uncased span seed 22 epoch 2 loss 0.0545
+  indolem/indobertweet-base-uncased span seed 22 epoch 3 loss 0.0392
+  indolem/indobertweet-base-uncased span seed 22 epoch 4 loss 0.0295
+  indolem/indobertweet-base-uncased span seed 22 epoch 5 loss 0.0227
+  indolem/indobertweet-base-uncased span seed 22 epoch 6 loss 0.0173
+  indolem/indobertweet-base-uncased span seed 22 epoch 7 loss 0.0140
+  indolem/indobertweet-base-uncased span seed 22 epoch 8 loss 0.0111
+  indolem/indobertweet-base-uncased span seed 22 epoch 9 loss 0.0098
+threshold 0.25 holdout span F1 0.6967
+threshold 0.30 holdout span F1 0.7026
+threshold 0.35 holdout span F1 0.7058
+threshold 0.40 holdout span F1 0.7079
+threshold 0.45 holdout span F1 0.7088
+threshold 0.50 holdout span F1 0.7065
+threshold 0.55 holdout span F1 0.6993
+attainable 0.7088 selected threshold 0.3544
+  FacebookAI/xlm-roberta-large bio seed 11 epoch 0 loss 2.1998
+  FacebookAI/xlm-roberta-large bio seed 11 epoch 1 loss 0.8237
+  FacebookAI/xlm-roberta-large bio seed 11 epoch 2 loss 0.6136
+  FacebookAI/xlm-roberta-large bio seed 11 epoch 3 loss 0.5018
+  FacebookAI/xlm-roberta-large bio seed 11 epoch 4 loss 0.3958
+  FacebookAI/xlm-roberta-large bio seed 11 epoch 5 loss 0.3164
+  FacebookAI/xlm-roberta-large bio seed 11 epoch 6 loss 0.2556
+  FacebookAI/xlm-roberta-large bio seed 11 epoch 7 loss 0.2022
+  FacebookAI/xlm-roberta-large bio seed 11 epoch 8 loss 0.1647
+  FacebookAI/xlm-roberta-large bio seed 11 epoch 9 loss 0.1403
+wrote 832 rows from 1 members, 3371 arguments, 3628 entities
+  indolem/indobertweet-base-uncased span seed 12 epoch 0 loss 0.7009
+  indolem/indobertweet-base-uncased span seed 12 epoch 1 loss 0.0761
+  indolem/indobertweet-base-uncased span seed 12 epoch 2 loss 0.0533
+  indolem/indobertweet-base-uncased span seed 12 epoch 3 loss 0.0386
+  indolem/indobertweet-base-uncased span seed 12 epoch 4 loss 0.0291
+  indolem/indobertweet-base-uncased span seed 12 epoch 5 loss 0.0220
+  indolem/indobertweet-base-uncased span seed 12 epoch 6 loss 0.0180
+  indolem/indobertweet-base-uncased span seed 12 epoch 7 loss 0.0136
+  indolem/indobertweet-base-uncased span seed 12 epoch 8 loss 0.0110
+  indolem/indobertweet-base-uncased span seed 12 epoch 9 loss 0.0094
+wrote 832 rows from 2 members, 3359 arguments, 3646 entities
+C:\Users\srika\anaconda3\envs\max\lib\site-packages\transformers\convert_slow_tokenizer.py:564: UserWarning: The sentencepiece tokenizer that you are converting to a fast tokenizer uses the byte fallback option which is not implemented in the fast tokenizers. In practice this means that the fast version of the tokenizer can produce unknown tokens whereas the sentencepiece version would have converted these unknown tokens into a sequence of byte tokens matching the original piece of text.
+  warnings.warn(
+  microsoft/mdeberta-v3-base bio seed 13 epoch 0 loss 2.1698
+  microsoft/mdeberta-v3-base bio seed 13 epoch 1 loss 0.7530
+  microsoft/mdeberta-v3-base bio seed 13 epoch 2 loss 0.5657
+  microsoft/mdeberta-v3-base bio seed 13 epoch 3 loss 0.4397
+  microsoft/mdeberta-v3-base bio seed 13 epoch 4 loss 0.3409
+  microsoft/mdeberta-v3-base bio seed 13 epoch 5 loss 0.2642
+  microsoft/mdeberta-v3-base bio seed 13 epoch 6 loss 0.2121
+  microsoft/mdeberta-v3-base bio seed 13 epoch 7 loss 0.1687
+  microsoft/mdeberta-v3-base bio seed 13 epoch 8 loss 0.1352
+  microsoft/mdeberta-v3-base bio seed 13 epoch 9 loss 0.1110
+wrote 832 rows from 3 members, 3302 arguments, 3596 entities
+  indobenchmark/indobert-large-p1 span seed 14 epoch 0 loss 0.5669
+  indobenchmark/indobert-large-p1 span seed 14 epoch 1 loss 0.0745
+  indobenchmark/indobert-large-p1 span seed 14 epoch 2 loss 0.0503
+  indobenchmark/indobert-large-p1 span seed 14 epoch 3 loss 0.0354
+  indobenchmark/indobert-large-p1 span seed 14 epoch 4 loss 0.0273
+  indobenchmark/indobert-large-p1 span seed 14 epoch 5 loss 0.0202
+  indobenchmark/indobert-large-p1 span seed 14 epoch 6 loss 0.0146
+  indobenchmark/indobert-large-p1 span seed 14 epoch 7 loss 0.0113
+  indobenchmark/indobert-large-p1 span seed 14 epoch 8 loss 0.0090
+  indobenchmark/indobert-large-p1 span seed 14 epoch 9 loss 0.0075
+wrote 832 rows from 4 members, 3268 arguments, 3585 entities
+  indolem/indobertweet-base-uncased bio seed 15 epoch 0 loss 1.9396
+  indolem/indobertweet-base-uncased bio seed 15 epoch 1 loss 0.6619
+  indolem/indobertweet-base-uncased bio seed 15 epoch 2 loss 0.4532
+  indolem/indobertweet-base-uncased bio seed 15 epoch 3 loss 0.3202
+  indolem/indobertweet-base-uncased bio seed 15 epoch 4 loss 0.2248
+  indolem/indobertweet-base-uncased bio seed 15 epoch 5 loss 0.1608
+  indolem/indobertweet-base-uncased bio seed 15 epoch 6 loss 0.1105
+  indolem/indobertweet-base-uncased bio seed 15 epoch 7 loss 0.0839
+  indolem/indobertweet-base-uncased bio seed 15 epoch 8 loss 0.0633
+  indolem/indobertweet-base-uncased bio seed 15 epoch 9 loss 0.0514
+wrote 832 rows from 5 members, 3284 arguments, 3590 entities
+  FacebookAI/xlm-roberta-large span seed 16 epoch 0 loss 0.6431
+  FacebookAI/xlm-roberta-large span seed 16 epoch 1 loss 0.0863
+  FacebookAI/xlm-roberta-large span seed 16 epoch 2 loss 0.0641
+  FacebookAI/xlm-roberta-large span seed 16 epoch 3 loss 0.0538
+  FacebookAI/xlm-roberta-large span seed 16 epoch 4 loss 0.0433
+  FacebookAI/xlm-roberta-large span seed 16 epoch 5 loss 0.0354
+  FacebookAI/xlm-roberta-large span seed 16 epoch 6 loss 0.0293
+  FacebookAI/xlm-roberta-large span seed 16 epoch 7 loss 0.0242
+  FacebookAI/xlm-roberta-large span seed 16 epoch 8 loss 0.0198
+  FacebookAI/xlm-roberta-large span seed 16 epoch 9 loss 0.0167
+wrote 832 rows from 6 members, 3275 arguments, 3592 entities
+  microsoft/mdeberta-v3-base span seed 17 epoch 0 loss 0.5754
+  microsoft/mdeberta-v3-base span seed 17 epoch 1 loss 0.0936
+  microsoft/mdeberta-v3-base span seed 17 epoch 2 loss 0.0690
+  microsoft/mdeberta-v3-base span seed 17 epoch 3 loss 0.0563
+  microsoft/mdeberta-v3-base span seed 17 epoch 4 loss 0.0442
+  microsoft/mdeberta-v3-base span seed 17 epoch 5 loss 0.0364
+  microsoft/mdeberta-v3-base span seed 17 epoch 6 loss 0.0308
+  microsoft/mdeberta-v3-base span seed 17 epoch 7 loss 0.0245
+  microsoft/mdeberta-v3-base span seed 17 epoch 8 loss 0.0207
+  microsoft/mdeberta-v3-base span seed 17 epoch 9 loss 0.0174
+wrote 832 rows from 7 members, 3283 arguments, 3600 entities
+  indobenchmark/indobert-large-p1 bio seed 18 epoch 0 loss 1.8545
+  indobenchmark/indobert-large-p1 bio seed 18 epoch 1 loss 0.6200
+  indobenchmark/indobert-large-p1 bio seed 18 epoch 2 loss 0.4299
+  indobenchmark/indobert-large-p1 bio seed 18 epoch 3 loss 0.2954
+  indobenchmark/indobert-large-p1 bio seed 18 epoch 4 loss 0.2032
+  indobenchmark/indobert-large-p1 bio seed 18 epoch 5 loss 0.1410
+  indobenchmark/indobert-large-p1 bio seed 18 epoch 6 loss 0.1028
+  indobenchmark/indobert-large-p1 bio seed 18 epoch 7 loss 0.0734
+  indobenchmark/indobert-large-p1 bio seed 18 epoch 8 loss 0.0566
+  indobenchmark/indobert-large-p1 bio seed 18 epoch 9 loss 0.0468
+wrote 832 rows from 8 members, 3271 arguments, 3583 entities
+RUN EXIT 0 16:54:40
